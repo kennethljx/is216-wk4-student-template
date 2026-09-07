@@ -2,9 +2,9 @@
     import { ref } from 'vue'
 
     // Add code here
-    import img from '/assets/me.png';
-    const width = '200';
-    const height = '200px';
+    const img = ref('/assets/me.png');
+    const width = ref('200');
+    const height = ref('200');
 
     const obj = ref({
         width: '200',
